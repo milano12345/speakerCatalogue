@@ -1,0 +1,9 @@
+{
+  "name": "MEcatalogue",
+  "version": "1.0.0",
+  "description": "Store for selling merchandise",
+  "main": "index.js",
+  "repository": "https://github.com/milano12345/speakerCatalogue.git",
+  "author": "milano12345 <dmilano857@gmail.com>",
+  "license": "MIT"
+}
