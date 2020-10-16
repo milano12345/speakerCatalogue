@@ -41,10 +41,10 @@ class Header extends React.Component {
           />
         </div> */}
         <h1>
-          The <strong>Secret</strong> Stash
+          The <strong className="strong">Secret</strong> Stash
         </h1>
         <h6>
-          Powered by: <strong>Milano</strong>
+          Powered by: <strong className="strong2">Milano</strong>
         </h6>
       </div>
     );

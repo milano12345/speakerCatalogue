@@ -29,6 +29,23 @@
   margin: 13rem;
 }
 
+.strong {
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation: spin ease 2s;
+  -webkit-animation: spin ease 7s;
+}
+@keyframes spin {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 body {
   width: 100wh;
   height: 100%;
