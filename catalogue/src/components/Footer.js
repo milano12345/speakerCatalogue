@@ -19,11 +19,18 @@ import ClassForm from "./ClassForm";
 
 const Footer = () => (
   <div className="footer">
-    <span>Show: </span>
     {/* <FilterLink filter={VisibilityFilters.SHOW_ALL}>All</FilterLink>
     <FilterLink filter={VisibilityFilters.SHOW_ACTIVE}>Active</FilterLink>
     <FilterLink filter={VisibilityFilters.SHOW_COMPLETED}>Completed</FilterLink> */}
-    <p style={{ textAlign: "center", fontSize: "18px", color: "black" }}>
+    <p
+      style={{
+        textAlign: "center",
+        fontSize: "18px",
+        color: "black",
+        position: "absolute",
+        width: "100%",
+      }}
+    >
       &copy; Daniel Milano Design
     </p>
   </div>
