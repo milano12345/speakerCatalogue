@@ -18,12 +18,11 @@ import { VisibilityFilters } from "../redux/actions/index";
 import ClassForm from "./ClassForm";
 
 const Footer = () => (
-  <div>
+  <div className="footer test">
     <span>Show: </span>
     {/* <FilterLink filter={VisibilityFilters.SHOW_ALL}>All</FilterLink>
     <FilterLink filter={VisibilityFilters.SHOW_ACTIVE}>Active</FilterLink>
     <FilterLink filter={VisibilityFilters.SHOW_COMPLETED}>Completed</FilterLink> */}
-    <ClassForm />
     <p style={{ textAlign: "center", fontSize: "18px", color: "black" }}>
       &copy; Daniel Milano Design
     </p>

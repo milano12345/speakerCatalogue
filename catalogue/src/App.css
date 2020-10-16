@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
 }
 
 .App-logo {
@@ -118,8 +119,7 @@ h6 {
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: #4caf50;
-  color: white;
+  color: #23a6d5;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -149,7 +149,7 @@ h6 {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #23a6d5;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -232,16 +232,42 @@ h6 {
 
 /* Description Styles */
 
+.description {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
 /* End */
 
 /* Catalogue Styles */
 
+.catalogue {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
 /* End */
 /* Payment Styles */
+
+.payment {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
 
 /* End */
 
 /* Footer/Form Styles */
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
 .helpForm {
   display: block;
   width: 300px;

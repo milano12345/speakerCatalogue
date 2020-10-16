@@ -23,7 +23,7 @@ class Header extends React.Component {
   render() {
     return (
       <div className={this.state.animationClass}>
-        <div className="imgcontainer">
+        {/* <div className="imgcontainer">
           <img
             className="logo"
             src={require("../images/milano.jpg")}
@@ -39,7 +39,7 @@ class Header extends React.Component {
             src={require("../images/milano.jpg")}
             alt={"logo"}
           />
-        </div>
+        </div> */}
         <h1>High Quality Speakers</h1>
         <h6>Crazy Low Prices</h6>
       </div>

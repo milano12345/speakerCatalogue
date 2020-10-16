@@ -1,7 +1,7 @@
 import React from "react";
 
 const Catalogue = () => (
-  <div className={"catalogue"}>
+  <div className={"catalogue test"}>
     This is the Catalogue
     <div className={"filterBar"}>Search filter bar</div>
     <div className={"productCatalogue"}>These are the products</div>
