@@ -2,8 +2,8 @@ import React from "react";
 
 const Description = () => (
   <div className={"description test"}>
-    <div className={"productImage"}>Image of Product</div>
     <div className={"productName"}>Product Name</div>
+    <div className={"productImage"}>Image of Product</div>
     <div className={"shippingInfo"}>Shipping info</div>
     <div className={"productSpec"}>Product Specs</div>
     <div className={"productReviews"}>Product Reviews</div>
