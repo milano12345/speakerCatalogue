@@ -18,7 +18,7 @@ import { VisibilityFilters } from "../redux/actions/index";
 import ClassForm from "./ClassForm";
 
 const Footer = () => (
-  <div className="footer test">
+  <div className="footer">
     <span>Show: </span>
     {/* <FilterLink filter={VisibilityFilters.SHOW_ALL}>All</FilterLink>
     <FilterLink filter={VisibilityFilters.SHOW_ACTIVE}>Active</FilterLink>

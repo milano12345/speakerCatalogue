@@ -22,7 +22,7 @@ class Header extends React.Component {
   }
   render() {
     return (
-      <div className={this.state.animationClass}>
+      <div class="header">
         {/* <div className="imgcontainer">
           <img
             className="logo"
@@ -40,8 +40,12 @@ class Header extends React.Component {
             alt={"logo"}
           />
         </div> */}
-        <h1>High Quality Speakers</h1>
-        <h6>Crazy Low Prices</h6>
+        <h1>
+          The <strong>Secret</strong> Stash
+        </h1>
+        <h6>
+          Powered by: <strong>Milano</strong>
+        </h6>
       </div>
     );
   }

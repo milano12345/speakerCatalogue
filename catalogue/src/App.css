@@ -25,9 +25,13 @@
 
 /* Header Styles */
 
-.test {
+.header {
+  margin: 13rem;
+}
+
+body {
   width: 100wh;
-  height: 33vh;
+  height: 100vh;
   color: #fff;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
@@ -82,14 +86,25 @@
   justify-content: space-between;
 }
 
-h1,
-h6 {
-  font-size: 1.7rem;
+h1 {
+  font-size: 2.2rem;
   font-family: system-ui;
   font-weight: 300;
   text-align: center;
   position: absolute;
   top: 8%;
+  color: black;
+  right: 0;
+  left: 0;
+}
+
+h6 {
+  font-size: 0.8rem;
+  font-family: system-ui;
+  font-weight: 300;
+  text-align: center;
+  position: absolute;
+  top: 30%;
   color: black;
   right: 0;
   left: 0;
