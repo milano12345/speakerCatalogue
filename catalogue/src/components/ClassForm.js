@@ -1,17 +1,18 @@
 import React from "react";
-import { ButtonGreen, Form2, Label, Input } from "./login";
 import { axiosWithAuth } from "./axiosWithAuth";
+import "../App.css";
 
 function ClassForm(props) {
-  const [formData, setFormData] = React.useState({
-    name: props.class.name,
-    type: props.class.type,
-    location: props.class.location,
-    intensitylvl: props.class.intensitylvl,
-    length_minutes: props.class.length_minutes,
-    current_size: props.class.current_size,
-    max_size: props.class.max_size,
-  });
+  // const [formData, setFormData] = React.useState({
+  //   name: props.class.name,
+  //   type: props.class.type,
+  //   location: props.class.location,
+  //   intensitylvl: props.class.intensitylvl,
+  //   length_minutes: props.class.length_minutes,
+  //   current_size: props.class.current_size,
+  //   max_size: props.class.max_size,
+  // });
+  const [formData, setFormData] = React.useState({});
 
   console.log("class", formData);
   console.log("classprops", props);
@@ -34,74 +35,41 @@ function ClassForm(props) {
 
   return (
     <div className="form-wrapper">
-      <Form2 className="ClassForm">
-        <Label>
-          Name
-          <Input
+      <form className="helpForm">
+        Contact Me
+        <label>
+          Name:
+          <input
             name="name"
             type="text"
             defaultValue={formData.name}
             onChange={handleChanges}
           />
-        </Label>
-        <Label>
-          Type
-          <Input
-            name="type"
+        </label>
+        <label>
+          E-Mail:
+          <input
+            name="email"
             type="text"
-            value={formData.type}
+            value={formData.email}
             onChange={handleChanges}
           />
-        </Label>
-        <Label>
-          Location
-          <Input
-            name="location"
+        </label>
+        <label>
+          Message:
+          <textarea
+            rows="4"
+            cols="20"
+            name="message"
             type="text"
-            value={formData.location}
+            value={formData.message}
             onChange={handleChanges}
           />
-        </Label>
-        <Label>
-          Intensity Level(1-10)
-          <Input
-            name="intensitylvl"
-            type="number"
-            value={formData.intensitylvl}
-            onChange={handleChanges}
-          />
-        </Label>
-        <Label>
-          Length(minutes)
-          <Input
-            name="length_minutes"
-            type="number"
-            value={formData.length_minutes}
-            onChange={handleChanges}
-          />
-        </Label>
-        <Label>
-          Current Size
-          <Input
-            name="current_size"
-            type="number"
-            value={formData.current_size}
-            onChange={handleChanges}
-          />
-        </Label>
-        <Label>
-          Max Size
-          <Input
-            name="max_size"
-            type="number"
-            value={formData.max_size}
-            onChange={handleChanges}
-          />
-        </Label>
-        <ButtonGreen onClick={handleClasses} style={{ marginLeft: "64%" }}>
+        </label>
+        <button onClick={handleClasses} style={{ marginLeft: "64%" }}>
           Submit
-        </ButtonGreen>
-      </Form2>
+        </button>
+      </form>
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import Footer from "./components/Footer";
-import AddTodo from "./redux/containers/AddTodo";
-import VisibleTodoList from "./redux/containers/VisibileTodoList";
-import Login from "./components/Login";
+// import AddTodo from "./redux/containers/AddTodo";
+// import VisibleTodoList from "./redux/containers/VisibileTodoList";
+// import Login from "./components/Login";
 import Header from "./components/Header";
 import "./App.css";
 import Catalogue from "./components/Catalogue";
@@ -17,8 +17,6 @@ const App = () => (
     <Description />
     <Catalogue />
     <Payment />
-    <AddTodo />
-    <VisibleTodoList />
     <Footer />
   </div>
 );
