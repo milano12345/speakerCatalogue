@@ -249,9 +249,11 @@ h6 {
 
 .description {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 2rem;
+  line-height: 6rem;
 }
 /* End */
 
@@ -281,7 +283,6 @@ h6 {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 2rem;
 }
 .helpForm {
   display: block;

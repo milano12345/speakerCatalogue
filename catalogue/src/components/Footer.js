@@ -27,6 +27,7 @@ const Footer = () => (
         textAlign: "center",
         fontSize: "18px",
         color: "black",
+        posistion: "absolute",
         width: "100%",
       }}
     >
