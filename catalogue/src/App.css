@@ -47,6 +47,7 @@
   animation-timing-function: linear;
   animation: fade ease 2s;
   -webkit-animation: fade ease 2s;
+  margin-left: 0.6rem;
 }
 @keyframes fade {
   0% {
@@ -168,6 +169,12 @@ h1 {
   color: black;
   right: 0;
   left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.delay {
+  animation-delay: 0s;
 }
 
 h6 {
