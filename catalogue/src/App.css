@@ -14,9 +14,8 @@
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  animation: fade ease 2s;
-  -webkit-animation: fade ease 7s;
-  animation-delay: 1s;
+  animation: fade ease 3s;
+  -webkit-animation: fade ease 3s;
 }
 
 .logo-cnt {
@@ -40,7 +39,7 @@
 
 .strong {
   animation-name: fade;
-  animation-duration: 2500ms;
+  animation-duration: 2000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation: fade ease 2s;
