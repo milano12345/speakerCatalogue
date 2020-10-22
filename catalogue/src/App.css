@@ -10,8 +10,6 @@
 
 .logo {
   margin-top: 9rem;
-  height: auto;
-  width: 18%;
   animation-name: fade;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
