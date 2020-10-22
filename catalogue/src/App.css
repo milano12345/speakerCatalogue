@@ -20,11 +20,11 @@
   overflow: hidden;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  -moz-animation: slide 1s ease 3.5s forwards, fade ease 3s;
-  -webkit-animation: slide 1s ease 3.5s forwards, fade ease 3s;
-  -o-animation: slide 1s ease 3.5s forwards, fade ease 3s;
-  -ms-animation: slide 1s ease 3.5s forwards, fade ease 3s;
-  animation: slide 1s ease 3.5s forwards, fade ease 3s;
+  -moz-animation: slide 1s ease 1.5s forwards, fade ease 3s;
+  -webkit-animation: slide 1s ease 1.5s forwards, fade ease 3s;
+  -o-animation: slide 1s ease 1.5s forwards, fade ease 3s;
+  -ms-animation: slide 1s ease 1.5s forwards, fade ease 3s;
+  animation: slide 1s ease 1.5s forwards, fade ease 3s;
 }
 
 .App-header {
