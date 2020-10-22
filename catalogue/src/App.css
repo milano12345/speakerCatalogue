@@ -148,6 +148,7 @@ h6 {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: system-ui;
 }
 
 /* Add an active class to highlight the current page */
@@ -174,7 +175,7 @@ h6 {
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit;
+  font-family: system-ui;
   margin: 0;
 }
 
