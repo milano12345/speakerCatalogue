@@ -9,14 +9,14 @@
 }
 
 .logo {
-  margin-top: 9rem;
+  margin-top: 10rem;
   animation-name: fade;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation: fade ease 2s;
   -webkit-animation: fade ease 7s;
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 
 .logo-cnt {
@@ -44,7 +44,7 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation: fade ease 2s;
-  -webkit-animation: fade ease 7s;
+  -webkit-animation: fade ease 4s;
 }
 @keyframes fade {
   0% {
