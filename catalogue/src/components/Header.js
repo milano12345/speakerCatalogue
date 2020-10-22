@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../images/mustache.png";
 
 class Header extends React.Component {
   constructor(props) {
@@ -46,6 +47,9 @@ class Header extends React.Component {
         <h6>
           Powered by: <strong className="strong2">Milano</strong>
         </h6>
+        <div className={"logo-cnt"}>
+          <img className={"logo"} src={logo} alt="logo" />
+        </div>
       </div>
     );
   }
