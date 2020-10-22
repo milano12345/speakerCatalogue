@@ -16,7 +16,7 @@
   animation-timing-function: linear;
   animation: fade ease 2s;
   -webkit-animation: fade ease 7s;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 .logo-cnt {
