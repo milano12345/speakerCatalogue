@@ -8,20 +8,23 @@
   pointer-events: none;
 }
 
-.logo {
-  margin-top: 10rem;
-  animation-name: fade;
-  animation-duration: 5000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation: fade ease 3s;
-  -webkit-animation: fade ease 3s;
-}
-
 .logo-cnt {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.logo {
+  margin-top: 10rem;
+  height: 0;
+  overflow: hidden;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -moz-animation: slide 1s ease 3.5s forwards, fade ease 3s;
+  -webkit-animation: slide 1s ease 3.5s forwards, fade ease 3s;
+  -o-animation: slide 1s ease 3.5s forwards, fade ease 3s;
+  -ms-animation: slide 1s ease 3.5s forwards, fade ease 3s;
+  animation: slide 1s ease 3.5s forwards, fade ease 3s;
 }
 
 .App-header {
@@ -52,16 +55,6 @@
   100% {
     opacity: 1;
   }
-}
-
-.logo {
-  height: 0;
-  overflow: hidden;
-  -moz-animation: slide 1s ease 3.5s forwards;
-  -webkit-animation: slide 1s ease 3.5s forwards;
-  -o-animation: slide 1s ease 3.5s forwards;
-  -ms-animation: slide 1s ease 3.5s forwards;
-  animation: slide 1s ease 3.5s forwards;
 }
 
 @-moz-keyframes slide /* Firefox */ {
