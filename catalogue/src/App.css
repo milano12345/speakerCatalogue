@@ -40,6 +40,10 @@
 
 /* Header Styles */
 
+.margin {
+  margin-left: 0.6rem;
+}
+
 .strong {
   animation-name: fade;
   animation-duration: 2000ms;

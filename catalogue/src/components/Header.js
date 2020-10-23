@@ -43,7 +43,7 @@ class Header extends React.Component {
         </div> */}
         <h1>
           <div>The</div> <strong className="strong">Secret </strong>
-          <div>Stache</div>
+          <div className="margin">Stache</div>
         </h1>
         <h6>
           Powered by: <strong className="strong2">Milano</strong>
