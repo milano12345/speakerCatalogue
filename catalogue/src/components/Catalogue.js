@@ -5,10 +5,12 @@ import ClassCards from "./ClassCards";
 const Catalogue = () => {
   const [classes, setClasses] = useState([]);
   useEffect(() => {
-    axios.get("http://localhost:3300/api/auth/products").then((res) => {
-      console.log(res);
-      setClasses(res.data);
-    });
+    axios
+      .get("https://cataloguebackend.herokuapp.com/api/auth/products")
+      .then((res) => {
+        console.log(res);
+        setClasses(res.data);
+      });
   }, []);
 
   return (

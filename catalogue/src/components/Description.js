@@ -3,13 +3,13 @@ import ClassCards from "./ClassCards";
 import axios from "axios";
 
 const Description = () => {
-  const [classes, setClasses] = useState([]);
-  useEffect(() => {
-    axios.get("http://localhost:3300/api/auth/products").then((res) => {
-      console.log(res);
-      setClasses(res.data);
-    });
-  }, []);
+  // const [classes, setClasses] = useState([]);
+  // useEffect(() => {
+  //   axios.get("http://localhost:3300/api/auth/products").then((res) => {
+  //     console.log(res);
+  //     setClasses(res.data);
+  //   });
+  // }, []);
 
   return (
     <div className="container">
