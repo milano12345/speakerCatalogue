@@ -343,11 +343,22 @@ h6 {
 
 /* Catalogue Styles */
 
+.productImage {
+  height: 8rem;
+}
+
+.card {
+  margin: 0.5rem;
+  background-color: #333;
+  border-radius: 10%;
+  padding: 1rem;
+}
+
 .catalogue {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 /* End */

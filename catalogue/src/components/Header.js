@@ -23,7 +23,7 @@ class Header extends React.Component {
   }
   render() {
     return (
-      <div class="header">
+      <div className="header">
         {/* <div className="imgcontainer">
           <img
             className="logo"

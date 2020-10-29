@@ -151,7 +151,7 @@ const LogIn = (props) => {
     console.log(credentials);
     axios
       .post(
-        "https://anywhere-fitness92.herokuapp.com/api/auth/login",
+        "",
         // "http://localhost:3300/api/auth/login",
         credentials
       )
