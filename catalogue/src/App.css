@@ -350,7 +350,10 @@ h6 {
 }
 
 .productCatalogue {
+  display: flex;
+  justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .productImage {
@@ -361,7 +364,7 @@ h6 {
   margin: 0.7rem;
   background-color: #333;
   border-radius: 10%;
-  padding: 0.5rem;
+  padding: 1rem;
   box-shadow: 10px 10px 20px #4b4f52;
 }
 
