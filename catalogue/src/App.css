@@ -343,6 +343,16 @@ h6 {
 
 /* Catalogue Styles */
 
+@media screen and (min-width: 600px) {
+  .productCatalogue {
+    display: flex;
+  }
+}
+
+.productCatalogue {
+  text-align: center;
+}
+
 .productImage {
   height: 8rem;
 }
@@ -352,6 +362,7 @@ h6 {
   background-color: #333;
   border-radius: 10%;
   padding: 1rem;
+  box-shadow: 10px 10px 20px #4b4f52;
 }
 
 .catalogue {
