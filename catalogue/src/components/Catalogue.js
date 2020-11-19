@@ -23,8 +23,8 @@ const Catalogue = () => {
           width={960}
           height={480}
           displayQuantityOfSide={4}
-          navigation={true}
-          enableHeading={true}
+          navigation={false}
+          enableHeading={false}
         >
           {classes.map((item) => (
             <ClassCards key={item.id} name={item.id} data={item} />
