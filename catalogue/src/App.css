@@ -394,13 +394,12 @@ body {
 }
 
 .card {
-  margin: 0.7rem;
   background-color: #333;
-  border-radius: 10%;
-  padding: 1.7rem;
+  border-radius: 7%;
   box-shadow: 10px 10px 20px #4b4f52;
-  width: fit-content;
+  width: 6.3rem;
   font-size: 0.5rem;
+  opacity: 1;
 }
 
 .catalogue {
@@ -445,4 +444,8 @@ body {
 }
 .coverflow__container__1P-xE {
   background: none !important;
+}
+
+.coverflow__figure__3bk_C {
+  box-shadow: none !important;
 }
