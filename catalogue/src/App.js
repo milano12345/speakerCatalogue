@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./App.css";
 import Catalogue from "./components/Catalogue";
+import Cover from "./components/Coverflow";
 import Description from "./components/Description";
 import NavBar from "./components/NavBar";
 import Payment from "./components/Payment";
@@ -15,6 +16,7 @@ const App = () => (
     <Header />
     <NavBar />
     {/* <Description /> */}
+    <Cover />
     <Catalogue />
     <Payment />
     <Footer />

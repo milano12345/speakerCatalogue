@@ -360,12 +360,47 @@ h6 {
   height: 8rem;
 }
 
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.gallery {
+  background: #eee;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8c8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
 .card {
   margin: 0.7rem;
   background-color: #333;
   border-radius: 10%;
   padding: 1.7rem;
   box-shadow: 10px 10px 20px #4b4f52;
+  width: fit-content;
+  font-size: 0.5rem;
 }
 
 .catalogue {
@@ -399,3 +434,15 @@ h6 {
   margin: auto;
 }
 /* End */
+
+.coverflow__stage__14oqC {
+  height: 100%;
+  width: fit-content !important;
+  display: flex;
+  margin: auto !important;
+  transform-style: preserve-3d;
+  perspective: 500px;
+}
+.coverflow__container__1P-xE {
+  background: none !important;
+}
