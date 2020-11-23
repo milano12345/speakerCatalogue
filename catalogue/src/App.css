@@ -351,9 +351,11 @@ h6 {
 
 .productCatalogue {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
   flex-wrap: wrap;
+  width: 100%;
+  overflow: hidden;
 }
 
 .productImage {
@@ -402,13 +404,6 @@ body {
   opacity: 1;
 }
 
-.catalogue {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  padding: 1rem;
-}
-
 /* End */
 /* Payment Styles */
 
@@ -434,25 +429,28 @@ body {
 }
 /* End */
 
+.coverflow__coverflow__53z9A {
+  left: 45px;
+}
+
 .coverflow__stage__14oqC {
   height: 100%;
-  width: fit-content !important;
   display: flex;
-  margin: auto !important;
   transform-style: preserve-3d;
   perspective: 500px;
 }
 .coverflow__container__1P-xE {
   background: none !important;
+  height: 340px !important;
 }
 
 .coverflow__figure__3bk_C {
   box-shadow: none !important;
 }
 
-.coverflow__figure__3bk_C {
+/* .coverflow__figure__3bk_C {
   margin: 0.3rem !important;
-}
+} */
 /* 
 .coverflow__container__1P-xE {
   width: 16rem !important;
