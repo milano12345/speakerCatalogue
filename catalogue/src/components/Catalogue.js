@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import ClassCards from "./ClassCards";
-import Cover from "./Coverflow";
+import Description from "./Description";
 import Coverflow from "react-coverflow";
 
 const Catalogue = () => {
@@ -30,6 +30,11 @@ const Catalogue = () => {
             <ClassCards key={item.id} name={item.id} data={item} />
           ))}
         </Coverflow>
+        {/* <div className="description-wrapper">
+          {classes.map((item) => (
+            <Description key={item.id} name={item.id} data={item} />
+          ))}
+        </div> */}
       </div>
     </div>
   );

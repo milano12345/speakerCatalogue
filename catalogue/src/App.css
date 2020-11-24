@@ -331,6 +331,10 @@ h6 {
 
 /* Description Styles */
 
+.description-wrapper {
+  margin-top: 1rem;
+}
+
 .description {
   display: flex;
   /* justify-content: space-evenly; */
@@ -430,7 +434,7 @@ body {
 /* End */
 
 .coverflow__coverflow__53z9A {
-  left: 45px;
+  left: 27px;
 }
 
 .coverflow__stage__14oqC {

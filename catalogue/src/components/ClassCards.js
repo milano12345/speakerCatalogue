@@ -1,9 +1,16 @@
 import React from "react";
+import Description from "./Description";
 //import { axiosWithAuth } from "./axiosWithAuth";
 
 const ClassCards = (props) => {
+  var fn = function (e) {};
   return (
-    <div className={"card"}>
+    <div
+      id={props.data.id}
+      onClick={(e) => fn(e)}
+      onKeyDown={(e) => fn(e)}
+      className={"card"}
+    >
       <div className={"productName"}>{props.data.productName}</div>
       <div className={"price"}>{props.data.price}</div>
       <img className={"productImage"} src={props.data.productImg}></img>
