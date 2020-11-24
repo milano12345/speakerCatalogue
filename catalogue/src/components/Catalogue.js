@@ -22,7 +22,7 @@ const Catalogue = () => {
         <Coverflow
           width={960}
           height={480}
-          displayQuantityOfSide={4}
+          displayQuantityOfSide={3}
           navigation={false}
           enableHeading={false}
         >
