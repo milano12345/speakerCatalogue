@@ -408,6 +408,15 @@ body {
   opacity: 1;
 }
 
+.card2 {
+  background-color: #333;
+  border-radius: 7%;
+  box-shadow: 10px 10px 20px #4b4f52;
+  width: 6.3rem;
+  font-size: 0.5rem;
+  opacity: 1;
+}
+
 /* End */
 /* Payment Styles */
 
@@ -434,7 +443,7 @@ body {
 /* End */
 
 .coverflow__coverflow__53z9A {
-  left: 27px;
+  left: 45px;
 }
 
 .coverflow__stage__14oqC {

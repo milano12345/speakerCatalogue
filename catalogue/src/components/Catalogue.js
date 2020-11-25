@@ -30,11 +30,11 @@ const Catalogue = () => {
             <ClassCards key={item.id} name={item.id} data={item} />
           ))}
         </Coverflow>
-        {/* <div className="description-wrapper">
+        <div className="description-wrapper">
           {classes.map((item) => (
             <Description key={item.id} name={item.id} data={item} />
           ))}
-        </div> */}
+        </div>
       </div>
     </div>
   );
