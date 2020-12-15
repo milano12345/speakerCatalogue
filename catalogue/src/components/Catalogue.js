@@ -6,6 +6,14 @@ import Coverflow from "react-coverflow";
 
 const Catalogue = () => {
   const [classes, setClasses] = useState([]);
+  const [clicked, setClicked] = useState({});
+
+  if (!clicked) {
+    console.log("clicked");
+  }
+  console.log("state", clicked);
+  console.log("item", classes);
+
   useEffect(() => {
     axios
       .get("https://cataloguebackend.herokuapp.com/api/auth/products")
@@ -15,6 +23,10 @@ const Catalogue = () => {
       });
   }, []);
 
+  const handleClick = () => {
+    console.log("Click happened");
+  };
+
   return (
     <div className={"catalogue"}>
       <div className={"filterBar"}>Search filter bar</div>
@@ -22,7 +34,7 @@ const Catalogue = () => {
         <Coverflow
           width={960}
           height={480}
-          displayQuantityOfSide={3}
+          displayQuantityOfSide={4}
           navigation={false}
           enableHeading={false}
         >
