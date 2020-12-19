@@ -11,16 +11,18 @@ const Description = (props) => {
   //   });
   // }, []);
 
+  console.log("description", props.data.data);
+
   return (
-    <div className={"card"}>
-      <div className={"productName"}>{props.data.productName}</div>
-      <div className={"price"}>{props.data.price}</div>
-      {/* <img className={"productImage"} src={props.data.productImg}></img> */}
-      <div className={"shippingInfo"}>{props.data.shipping}</div>
-      <div className={"productSpec"}>{props.data.specs}</div>
-      <div className={"productReviews"}>{props.data.reviews}</div>
-      <div className={"similarProducts"}>{props.data.similiar}</div>
-      <div className={"recentlyViewed"}>{props.data.recentlyViewed}</div>
+    <div className="card" id={"card2"}>
+      <div className={"productName"}>{props.data.data.productName}</div>
+      <div className={"price"}>{props.data.data.price}</div>
+      {/* <img className={"productImage"} src={props.data.data.productImg}></img> */}
+      <div className={"shippingInfo"}>{props.data.data.shipping}</div>
+      <div className={"productSpec"}>{props.data.data.specs}</div>
+      <div className={"productReviews"}>{props.data.data.reviews}</div>
+      <div className={"similarProducts"}>{props.data.data.similiar}</div>
+      <div className={"recentlyViewed"}>{props.data.data.recentlyViewed}</div>
     </div>
   );
 };

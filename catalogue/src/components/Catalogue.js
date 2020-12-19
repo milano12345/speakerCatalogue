@@ -43,9 +43,9 @@ const Catalogue = () => {
           ))}
         </Coverflow>
         <div className="description-wrapper">
-          {classes.map((item) => (
+          {/* {classes.map((item) => (
             <Description key={item.id} name={item.id} data={item} />
-          ))}
+          ))} */}
         </div>
       </div>
     </div>

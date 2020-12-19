@@ -15,7 +15,7 @@
 }
 
 .logo {
-  margin-top: 10rem;
+  margin-top: 12rem;
   height: 0;
   overflow: hidden;
   animation-iteration-count: infinite;
@@ -333,6 +333,10 @@ h6 {
 
 .description-wrapper {
   margin-top: 1rem;
+}
+
+.card2 {
+  display: none;
 }
 
 .description {
