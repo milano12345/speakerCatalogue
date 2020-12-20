@@ -458,13 +458,13 @@ body {
 }
 .coverflow__container__1P-xE {
   background: none !important;
-  height: 340px !important;
 }
 
 .coverflow__figure__3bk_C {
   backface-visibility: visible !important;
   margin: 0.1rem !important;
   box-shadow: none !important;
+  width: auto !important;
 }
 
 /* .coverflow__figure__3bk_C {

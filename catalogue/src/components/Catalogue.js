@@ -33,7 +33,7 @@ const Catalogue = () => {
       <div className={"productCatalogue"}>
         <Coverflow
           width={960}
-          height={480}
+          height={550}
           displayQuantityOfSide={4}
           navigation={false}
           enableHeading={false}
