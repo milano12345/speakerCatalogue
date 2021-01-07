@@ -23,14 +23,30 @@ const Catalogue = () => {
       });
   }, []);
 
-  const handleClick = () => {
-    console.log("Click happened");
+  const handleClick = (evt) => {
+    var target = evt.target || evt.srcElement;
+    //document.getElementById(target.parentNode.id)[0].id;
+    console.log(target.parentNode);
+
+    const arr = [
+      Array.from(document.querySelector(".description-wrapper").children),
+    ];
+    arr[0].forEach((item) => (item.style.display = "none"));
+    for (let i of arr[0]) {
+      if (i.id === target.parentNode.id) {
+        i.style.display = "inline-block";
+      }
+    }
+
+    console.log("Click happened from catalogue", evt.target, arr);
+
+    //target.parentNode.style.visibility = "visible";
   };
 
   return (
     <div className={"catalogue"}>
       <div className={"filterBar"}>Search filter bar</div>
-      <div className={"productCatalogue"}>
+      <div className={"productCatalogue"} onClick={handleClick}>
         <Coverflow
           width={960}
           height={550}
@@ -43,9 +59,9 @@ const Catalogue = () => {
           ))}
         </Coverflow>
         <div className="description-wrapper">
-          {/* {classes.map((item) => (
-            <Description key={item.id} name={item.id} data={item} />
-          ))} */}
+          {classes.map((item) => (
+            <Description key={item.id} data={item} id={item.id} />
+          ))}
         </div>
       </div>
     </div>

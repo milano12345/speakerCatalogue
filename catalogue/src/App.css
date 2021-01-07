@@ -332,11 +332,19 @@ h6 {
 /* Description Styles */
 
 .description-wrapper {
-  margin-top: 1rem;
+  margin: 0.7rem;
 }
 
 .card2 {
-  display: none;
+  background-color: #333;
+  border-radius: 7%;
+  box-shadow: 10px 10px 20px #4b4f52;
+  width: 95%;
+  height: 100%;
+  font-size: 1rem;
+  font-family: -webkit-pictograph;
+  line-height: 1.5rem;
+  opacity: 1;
 }
 
 .description {
@@ -412,15 +420,6 @@ body {
   opacity: 1;
 }
 
-.card2 {
-  background-color: #333;
-  border-radius: 7%;
-  box-shadow: 10px 10px 20px #4b4f52;
-  width: 6.3rem;
-  font-size: 0.5rem;
-  opacity: 1;
-}
-
 /* End */
 /* Payment Styles */
 
@@ -458,6 +457,7 @@ body {
 }
 .coverflow__container__1P-xE {
   background: none !important;
+  height: 350px !important;
 }
 
 .coverflow__figure__3bk_C {
