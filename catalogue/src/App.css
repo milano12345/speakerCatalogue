@@ -358,6 +358,9 @@ h6 {
 /* End */
 
 /* Catalogue Styles */
+.catalogue {
+  overflow: hidden;
+}
 
 @media screen and (min-width: 600px) {
   .productCatalogue {
@@ -416,7 +419,7 @@ body {
   background-color: #333;
   border-radius: 7%;
   box-shadow: 10px 10px 20px #4b4f52;
-  width: 6.3rem;
+  width: 6.2rem;
   font-size: 0.5rem;
   opacity: 1;
 }

@@ -46,6 +46,13 @@ const Catalogue = () => {
   return (
     <div className={"catalogue"}>
       <div className={"filterBar"}>Search filter bar</div>
+      <img
+        className={"pineapple"}
+        alt={"pineapple"}
+        src={
+          "https://images.pexels.com/photos/2412941/pexels-photo-2412941.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=200&w=300"
+        }
+      />
       <div className={"productCatalogue"} onClick={handleClick}>
         <Coverflow
           width={960}
