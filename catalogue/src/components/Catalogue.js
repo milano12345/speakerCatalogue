@@ -3,6 +3,7 @@ import axios from "axios";
 import ClassCards from "./ClassCards";
 import Description from "./Description";
 import Coverflow from "react-coverflow";
+import Search from "./Search";
 
 const Catalogue = () => {
   const [classes, setClasses] = useState([]);
@@ -45,7 +46,9 @@ const Catalogue = () => {
 
   return (
     <div className={"catalogue"}>
-      <div className={"filterBar"}>Search filter bar</div>
+      <div className={"filterBar"}>
+        <Search />
+      </div>
       <img
         className={"pineapple"}
         alt={"pineapple"}

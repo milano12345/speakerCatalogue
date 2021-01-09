@@ -362,6 +362,11 @@ h6 {
   overflow: hidden;
 }
 
+.input {
+  width: 100%;
+  text-align: right;
+}
+
 @media screen and (min-width: 600px) {
   .productCatalogue {
     display: flex;
