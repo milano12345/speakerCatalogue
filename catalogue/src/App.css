@@ -375,7 +375,8 @@ h6 {
 }
 
 .productImage {
-  height: 8rem;
+  height: auto;
+  width: 100%;
 }
 
 /* external css: flickity.css */
